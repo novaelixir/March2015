@@ -1,0 +1,2 @@
+defmodule Munge do
+end

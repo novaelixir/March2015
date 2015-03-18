@@ -4,7 +4,7 @@ defmodule Munge.Mixfile do
   def project do
     [app: :munge,
      version: "0.0.1",
-     elixir: "~> 1.1-dev",
+     elixir: "~> 1.0.2",
      deps: deps]
   end
 
@@ -25,6 +25,8 @@ defmodule Munge.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [{:poison, "~> 1.3.1"},]
   end
 end
+
+
